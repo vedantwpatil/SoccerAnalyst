@@ -1,4 +1,6 @@
-# 
-
+# Ignore the dataset 
 ./backend/app/ml/data/
+
+# Ignore macos 
+*.DS_Store
 
