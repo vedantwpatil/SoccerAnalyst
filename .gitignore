@@ -1,5 +1,10 @@
 # Ignore the dataset 
 ./backend/app/ml/data/
+./backend/ml/data/archive/
+
+*.csv
+*.mp4
+*.json
 
 # Ignore macos 
 *.DS_Store
