@@ -4,7 +4,7 @@ from scipy.signal import savgol_filter
 
 INPUT_CSV = "tracks_pitch.csv"
 OUTPUT_STATS_CSV = "player_stats.csv"
-FPS = 25  # Frame rate of your video (Check this!)
+FPS = 30  # Frame rate of your video (Check this!)
 SMOOTH_WINDOW = 25  # Window size for Sav-Gol (must be odd). 25 = 1 second at 25fps.
 POLY_ORDER = 2  # Quadratic fit (preserves acceleration curves)
 

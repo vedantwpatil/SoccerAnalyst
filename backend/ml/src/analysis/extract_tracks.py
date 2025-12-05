@@ -3,8 +3,8 @@ from ultralytics import YOLO
 import supervision as sv
 from tqdm import tqdm
 
-VIDEO_PATH = "../../data/08fd33_4.mp4"
-MODEL_PATH = "../../data/best.pt"
+VIDEO_PATH = "../../data/Inter v Barcelona 2nd League  UCL  Tactical Camera Full Match - THOLIUNATHI23 (720p, h264).mp4"
+MODEL_PATH = "../../data/player_tracker_best.pt"
 OUTPUT_CSV = "tracks_raw.csv"  # Output file
 CONFIDENCE = 0.25  # Keep low for ByteTrack to work
 IMG_SIZE = 1280  # Critical for small objects (ball)
